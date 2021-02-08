@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,100&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <style>
+        .attribution { font-size: 0.735em; text-align: center; margin-top: 10%;}
+        .attribution a { color: hsl(228, 45%, 44%); }
+      </style>
+</head>
+<body>
+    <main>
+        <section class="top">
+            <img src="images/logo.svg" alt="Fylo logo" />
+            <div class="main-menu-wrapper">
+                <div class="menu-item">
+                    <img class="menu-icon" src="images/icon-document.svg" alt="Document icon"/>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-icon" src="images/icon-folder.svg" alt="Folder icon"/>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-icon" src="images/icon-upload.svg" alt="Upload icon"/>
+                </div>
+            </div>
+        </section>
+
+        <section class="storage">
+            <p>You’ve used <strong>815 GB</strong> of your storage</p>
+            <div class="storage-bar-container">
+                <div class="outer-bar"></div>
+                <div class="storage-limits">
+                    <p>0 GB</p>
+                    <p>1000 GB</p>
+                </div>
+                <p id="gbLeft">185 <span>GB Left</p>
+            </div>
+        </section>
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/luizhttps">Luiz Otavio Mendes</a>.
+    </footer>
+</body>
+</html>
